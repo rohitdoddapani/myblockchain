@@ -2,6 +2,9 @@
 
 This project is a minimal blockchain implementation in Go. It demonstrates the core concepts of blockchains, such as block creation, hashing, and chain validation, using a simple HTTP API.
 
+> Want to see the networking version?  
+> 👉 [Check out the `networking` branch here.](https://github.com/rohitdoddapani/myblockchain/tree/networking)
+
 ## Features
 
 - **Block Structure:** Each block contains an index, timestamp, BPM (beats per minute, as example data), hash, and previous hash.
@@ -71,3 +74,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"BPM": 72}' http://localho
 - This is a demonstration and **not suitable for production**.
 - There is no peer-to-peer networking or consensus algorithm.
 - The blockchain is stored in memory and will reset on restart.
+
+
+> Want to see the networking version?  
+> 👉 [Check out the `networking` branch here.](https://github.com/rohitdoddapani/myblockchain/tree/networking)
